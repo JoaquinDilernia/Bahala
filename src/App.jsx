@@ -8,6 +8,7 @@ import Home from './components/Home/Home'
 import Error404 from './components/Error404/Error404'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
+import Local from './components/Local/Local'
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/servicios' element={<Servicios />} />
+          <Route path='/local' element={<Local />} />
           <Route path='/contacto' element={<Contacto />} />
           <Route path='*' element={<Error404 />} />
         </Routes>

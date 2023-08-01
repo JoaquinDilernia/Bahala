@@ -21,7 +21,7 @@ const Hero = () => {
       <Swiper   loop={true}
         pagination={{
           clickable: true,
-        }} navigation={true} modules={[Navigation, Pagination]} className="mySwiper">
+        }} navigation={true} modules={[Navigation, Pagination]} className="mySwiper1">
         <SwiperSlide className='swiper-slide'> Slide 1</SwiperSlide>
         <SwiperSlide className='swiper-slide'>Slide 2</SwiperSlide>
         <SwiperSlide className='swiper-slide'>Slide 3</SwiperSlide>
