@@ -7,8 +7,8 @@ import Contacto from './components/Contacto/Contacto'
 import Home from './components/Home/Home'
 import Error404 from './components/Error404/Error404'
 import NavBar from './components/NavBar/NavBar'
-import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
+
 
 
 
@@ -20,7 +20,6 @@ function App() {
 
       <ChakraProvider>
         <NavBar />
-        <Hero />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/servicios' element={<Servicios />} />

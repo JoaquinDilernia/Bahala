@@ -1,0 +1,17 @@
+footer{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem 2rem 0rem 0rem;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 10;
+    -webkit-border-radius: 2rem 2rem 0rem 0rem;
+    -moz-border-radius: 2rem 2rem 0rem 0rem;
+    -ms-border-radius: 2rem 2rem 0rem 0rem;
+    -o-border-radius: 2rem 2rem 0rem 0rem;
+}

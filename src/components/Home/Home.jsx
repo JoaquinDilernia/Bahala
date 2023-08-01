@@ -1,10 +1,17 @@
 import React from 'react'
+import './Home.css'
+import Servicios from '../Servicios/Servicios'
+import Contacto from '../Contacto/Contacto'
+import Hero from '../Hero/Hero'
 
 const Home = () => {
   return (
-    <div>
-      <h1>home</h1>
-    </div>
+    <>
+    <Hero />
+    <Servicios />
+    <Contacto />
+    </>
+
   )
 }
 
