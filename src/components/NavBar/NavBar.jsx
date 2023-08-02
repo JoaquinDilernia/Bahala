@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './NavBar.css'
+import logo from './logo.png'
 
 
 const NavBar = () => {
@@ -9,7 +10,7 @@ const NavBar = () => {
     return (
 
         <nav>
-            <Link to='/' className='titulo'> BAHALA </Link>
+            <Link to='/' className='logo'> <img src={logo} alt="logo" /> </Link>
             <div className='menu' onClick={() => { setMenu(!menu) }}>
                 <span></span>
                 <span></span>

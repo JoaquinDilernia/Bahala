@@ -9,9 +9,10 @@ const Home = () => {
   return (
     <>
     <Hero />
-    <Servicios />
-    <Local />
-    <Contacto />
+    <section className='home'>
+    <h1>home pagina de inicio</h1>
+    </section>
+
     </>
 
   )
