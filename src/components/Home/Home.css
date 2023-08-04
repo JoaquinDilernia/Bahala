@@ -20,6 +20,9 @@
 
 .box {
     background-color: #fff;
+    color: #EEABBE;
+    font-size: 2rem;
+    font-weight: bold;
     border-radius: 50%;
     width: 15rem;
     height: 15rem;
@@ -65,7 +68,8 @@
     align-items: center;
     width: 100%;
     margin: 7rem;
-    padding: 0 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #EEABBE;
 }
 
 .conte-txt {

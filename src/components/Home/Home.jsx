@@ -11,9 +11,9 @@ const Home = () => {
       <section className='home'>
         <div className='box-contenedor'>
           <Link to='/servicios'><div className='box'><h3>Servicios</h3></div></Link>
+          <Link to='/promos'><div className='box'><h3>Promos</h3></div></Link>
           <Link to='/local'><div className='box'><h3>Local</h3></div></Link>
           <Link to='/contacto'><div className='box'><h3>contacto</h3></div></Link>
-          <Link to='/promos'><div className='box'><h3>Promos</h3></div></Link>
         </div>
       </section>
 

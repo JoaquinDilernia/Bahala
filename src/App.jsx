@@ -9,6 +9,7 @@ import Error404 from './components/Error404/Error404'
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Local from './components/Local/Local'
+import Promos from './components/Promos/Promos'
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/servicios' element={<Servicios />} />
+          <Route path='/promos' element={<Promos />} />
           <Route path='/local' element={<Local />} />
           <Route path='/contacto' element={<Contacto />} />
           <Route path='*' element={<Error404 />} />
