@@ -19,20 +19,17 @@
 
 .box {
     background-color: #fff;
-    color: #EEABBE;
-    font-size: 2rem;
-    font-weight: bold;
     border-radius: 50%;
-    width: 12rem;
-    height: 12rem;
+    width: 16rem;
+    height: 16rem;
     display: flex;
+    position: relative;
     margin: 5rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     transition: all 0.3s;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -42,14 +39,31 @@
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
+.box img{
+    filter: blur(2px) grayscale(60%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-filter: blur(2px) grayscale(60%);
+}
+.box img:hover{
+    filter: blur(0px);
+    transition: all 0.8s;
+    -webkit-filter: blur(0px);
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
 
-.box:hover {
-    transform: scale(1.15);
-    transition: all 0.3s ease-in-out;
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
+
+.box h3{
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+    font: 600;
+    color:#829D3A;
 }
 
 .home-2 {
@@ -80,28 +94,34 @@
 }
 
 .conte-img {
-    width: 60%;
-    height: 400px;
+    width: 50%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
 }
 
-img {
+.conte-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 2rem;
 }
 
-.texto-1 {
-    font-size: 1.2rem;
+.conte-txt ul {
+    font-size: 1rem;
     color: #EEABBE;
     margin-bottom: 1rem;
 }
+.conte-txt ul li {
+    margin: 1rem;
+}
 
-h1 {
-    font-size: 2rem;
-    color: #000;
+.conte-txt h1 {
+    font-size: 1.5rem;
+    color: #B4ADAA;
     margin-bottom: 1rem;
 }
 
@@ -120,14 +140,15 @@ h1 {
 
     .conte-img {
         width: 100%;
+        height: 300px;
     }
 
-    h1 {
-        font-size: 1.5rem;
+    .conte-txt h1 {
+        font-size: 1rem;
     }
 
     .texto-1 {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     .box-contenedor {
         grid-template-columns: repeat(2, 1fr);
@@ -138,4 +159,12 @@ h1 {
         height: 10rem;
         margin: 1rem;
     }
+    .box h3 {
+        font-size: 1.5rem;
+        font: 400;
+    }
+    .conte-txt ul li {
+        margin: 1.5rem;
+    }
+
 }
