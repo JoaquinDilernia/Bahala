@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import './Hero.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { EffectFade, Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -23,14 +23,14 @@ import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     <motion.div initial={{ y: -100 }} animate={{ y: 0 }} transition={{ duration: 1 }} className="hero">
-      <Swiper autoplay={{ delay: 5500 }}
+      <Swiper  autoplay={{ delay: 5500 }}
         loop={true}
         pagination={{
           clickable: true,
-        }} navigation={true} modules={[Autoplay, Navigation, Pagination]} className="mySwiper1">
-        <SwiperSlide className='swiper-slide'>  <Link to='/promos'>Slide 1 </Link> </SwiperSlide>
-        <SwiperSlide className='swiper-slide'>  <Link to='/promos'>Slide 1 </Link> </SwiperSlide>
-        <SwiperSlide className='swiper-slide'>  <Link to='/promos'>Slide 1 </Link> </SwiperSlide>
+        }} navigation={true} modules={[EffectFade,Autoplay, Navigation, Pagination]}  className="mySwiper1">
+        <SwiperSlide className='swiper-slide'>  <Link to='/promos'><img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" /></Link> </SwiperSlide>
+        <SwiperSlide className='swiper-slide'>  <Link to='/promos'><img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" /> </Link> </SwiperSlide>
+        <SwiperSlide className='swiper-slide'>  <Link to='/promos'><img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" /> </Link> </SwiperSlide>
 
       </Swiper>
 

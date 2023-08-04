@@ -1,17 +1,14 @@
 .mySwiper1 {
     width: 100%;
-    height: 350px;
+    height: 450px;
+    margin-bottom: 1rem;
+
   }
-  
   .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
   }
   
   .swiper-slide img {
@@ -19,4 +16,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
   }
+  

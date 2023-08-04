@@ -22,7 +22,7 @@ nav {
     z-index: 999;
     height: 80px;
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     -webkit-border-radius: 0 0 2rem 2rem;
     -moz-border-radius: 0 0 2rem 2rem;
     -ms-border-radius: 0 0 2rem 2rem;
@@ -33,6 +33,13 @@ nav {
     width: 70px;
     height: 70px;
     margin-left: 2rem;
+}
+.logo:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 .logo img{
     width: 100%;

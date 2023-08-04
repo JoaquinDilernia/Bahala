@@ -5,7 +5,6 @@ import Hero from '../Hero/Hero'
 const Servicios = () => {
   return (
     <>
-    <Hero />
     <section className='servicios'>
       <h1>Servicios</h1>
     </section>

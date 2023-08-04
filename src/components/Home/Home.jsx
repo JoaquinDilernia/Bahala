@@ -11,10 +11,10 @@ const Home = () => {
       <Hero />
       <motion.section initial={{opacity:0}} animate={{opacity:1}}  transition={{ duration: 3 }} className='home'>
         <div className='box-contenedor'>
-          <Link to='/servicios'><motion.div initial={{scale:0.1}} animate={{  scale:1 }} transition={{ duration: 0.5 }}className='box'><h3>Servicios</h3></motion.div></Link>
-          <Link to='/promos'><motion.div initial={{scale:0.1}} animate={{  scale:1 }} transition={{ duration: 0.5 }} className='box'><h3>Promos</h3></motion.div></Link>
-          <Link to='/local'><motion.div initial={{scale:0.1}} animate={{  scale:1 }} transition={{ duration: 0.5 }} className='box'><h3>Local</h3></motion.div></Link>
-          <Link to='/contacto'><motion.div initial={{scale:0.1}} animate={{  scale:1 }} transition={{ duration: 0.5 }} className='box'><h3>Contacto</h3></motion.div></Link>
+          <Link to='/servicios'><motion.div initial={{scale:0.1}} whileHover={{scale:1.1}} animate={{  scale:1 }} transition={{ duration: 0.2}}className='box'><h3>Servicios</h3></motion.div></Link>
+          <Link to='/promos'><motion.div initial={{scale:0.1}} whileHover={{scale:1.1}} animate={{  scale:1 }} transition={{ duration: 0.2 }} className='box'><h3>Promos</h3></motion.div></Link>
+          <Link to='/local'><motion.div initial={{scale:0.1}} whileHover={{scale:1.1}} animate={{  scale:1 }} transition={{ duration: 0.2 }} className='box'><h3>Local</h3></motion.div></Link>
+          <Link to='/contacto'><motion.div initial={{scale:0.1}} whileHover={{scale:1.1}} animate={{  scale:1 }} transition={{ duration: 0.2 }} className='box'><h3>Contacto</h3></motion.div></Link>
         </div>
       </motion.section>
 
