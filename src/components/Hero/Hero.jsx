@@ -10,30 +10,31 @@ import 'swiper/css/navigation';
 import './Hero.css';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+
+
+
 
 
 
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <Swiper   loop={true}
+    <motion.div initial={{ y: -100 }} animate={{ y: 0 }} transition={{ duration: 1 }} className="hero">
+      <Swiper autoplay={{ delay: 5500 }}
+        loop={true}
         pagination={{
           clickable: true,
-        }} navigation={true} modules={[Navigation, Pagination]} className="mySwiper1">
-        <SwiperSlide className='swiper-slide'> Slide 1</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 2</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 3</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 4</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 5</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 6</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 7</SwiperSlide>
-        <SwiperSlide className='swiper-slide'> Slide 8</SwiperSlide>
-        <SwiperSlide className='swiper-slide'>Slide 9</SwiperSlide>
+        }} navigation={true} modules={[Autoplay, Navigation, Pagination]} className="mySwiper1">
+        <SwiperSlide className='swiper-slide'>  <Link to='/promos'>Slide 1 </Link> </SwiperSlide>
+        <SwiperSlide className='swiper-slide'>  <Link to='/promos'>Slide 1 </Link> </SwiperSlide>
+        <SwiperSlide className='swiper-slide'>  <Link to='/promos'>Slide 1 </Link> </SwiperSlide>
+
       </Swiper>
 
-      </div>
+    </motion.div>
 
   )
 }

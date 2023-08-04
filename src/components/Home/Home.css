@@ -1,8 +1,7 @@
 .home {
-    height: auto;
+    height: 400px;
     background-color: #EEABBE;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -24,8 +23,8 @@
     font-size: 2rem;
     font-weight: bold;
     border-radius: 50%;
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     display: flex;
     margin: 5rem;
     flex-direction: column;
@@ -107,6 +106,9 @@ h1 {
 }
 
 @media screen and (max-width: 950px) {
+    .home{
+        height: auto;
+    }
     .contenedor-1 {
         flex-direction: column;
         margin: 3rem;
@@ -132,8 +134,8 @@ h1 {
     }
 
     .box {
-        width: 200px;
-        height: 200px;
+        width: 10rem;
+        height: 10rem;
         margin: 1rem;
     }
 }
