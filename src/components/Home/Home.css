@@ -3,6 +3,7 @@
     background-color: #EEABBE;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .box-contenedor {
@@ -11,10 +12,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-
 }
 
 .box {
@@ -125,6 +122,26 @@
     margin-bottom: 1rem;
 }
 
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+.box{
+    width: 13rem;
+    height: 13rem;
+    margin: 3rem;
+}
+
+
+}
+
+@media (min-width: 950px) and (max-width: 1200px) {
+    .home{
+        height: auto;
+    }
+    .box-contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
 @media screen and (max-width: 950px) {
     .home{
         height: auto;

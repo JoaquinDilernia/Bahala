@@ -2,7 +2,89 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: calc(100vh - 80px - 80px);
-    background-color: #f5f5f5;
+    height: auto;
+    background-color: #fff;
+}
+.titulo-serv{
+    font-size: 2.5rem;
+    color: #B4ADAA;
+    text-align: center;
+    margin: 2rem;
+}
+.contenedor-card{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+.card-titulo{
+    font-size: 1.2rem !important;; 
+    color: #EEABBE;
+    text-align: center;
+}	
+.CardBody{
+    margin: 0;
+    padding: 5px !important;
+    height: 100% !important;
+}
+.img-card{
+    height: 22rem !important;
+    object-fit: cover;
+    border-radius: 1rem 1rem 2rem 2rem  ;
+    filter: grayscale(20%);
+    -webkit-filter: grayscale(30%);
+    -webkit-border-radius: 1rem 1rem 2rem 2rem  ;
+    -moz-border-radius: 1rem 1rem 2rem 2rem  ;
+    -ms-border-radius: 1rem 1rem 2rem 2rem  ;
+    -o-border-radius: 1rem 1rem 2rem 2rem  ;
+}	
+.img-card:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.card{
+    margin: 1rem;
+    height: 25rem !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 1rem 1rem 2rem 2rem     !important;
+    -webkit-border-radius: 1rem 1rem 2rem 2rem     !important;
+    -moz-border-radius: 1rem 1rem 2rem 2rem     !important;
+    -ms-border-radius: 1rem 1rem 2rem 2rem     !important;
+    -o-border-radius: 1rem 1rem 2rem 2rem     !important;
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px){
+    .contenedor-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        height: auto !important;
+    }
+    .img-card{
+        height: 15rem !important;
+    }
+    .card-titulo{
+        font-size: 0.8rem !important;; 
+        color: #EEABBE;
+        text-align: center;
+    }	
 }
