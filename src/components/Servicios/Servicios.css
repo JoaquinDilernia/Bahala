@@ -30,10 +30,10 @@
 .CardBody{
     margin: 0;
     padding: 5px !important;
-    height: 100% !important;
+    height: 80% !important;
 }
 .img-card{
-    height: 22rem !important;
+    height: 18rem !important;
     object-fit: cover;
     border-radius: 1rem 1rem 2rem 2rem  ;
     filter: grayscale(20%);
@@ -47,6 +47,37 @@
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
+.btn-ver{
+    background-color: #EEABBE !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 1rem !important;
+    margin: 0.5rem !important;
+    cursor: pointer ;
+    transition: all 0.2s ease-in-out !important;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    -moz-transition: all 0.2s ease-in-out !important;
+    -ms-transition: all 0.2s ease-in-out !important;
+    -o-transition: all 0.2s ease-in-out !important;
+    -webkit-border-radius: 0.5rem !important;
+    -moz-border-radius: 0.5rem !important;
+    -ms-border-radius: 0.5rem !important;
+    -o-border-radius: 0.5rem !important;
+}
+.btn-ver:hover{
+    background-color: #fff !important;
+    color: #EEABBE !important;
+    border: 1px solid #EEABBE !important;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20% !important;
+    padding: 0 !important;
+}
 
 .card{
     margin: 1rem;
@@ -58,19 +89,8 @@
     -ms-border-radius: 1rem 1rem 2rem 2rem     !important;
     -o-border-radius: 1rem 1rem 2rem 2rem     !important;
 }
-.card:hover{
-    transform: scale(1.04);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-    -webkit-transform: scale(1.04);
-    -moz-transform: scale(1.04);
-    -ms-transform: scale(1.04);
-    -o-transform: scale(1.04);
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
+
+
 
 @media screen and (max-width: 768px){
     .contenedor-card{
@@ -82,9 +102,41 @@
     .img-card{
         height: 15rem !important;
     }
+    .CardBody{
+        height: auto !important;
+    }
+    .img-card{
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+}	
     .card-titulo{
         font-size: 0.8rem !important;; 
         color: #EEABBE;
         text-align: center;
     }	
+    .btn-ver{
+        font-size: 0.8rem !important;
+        height: auto !important;
+        width: 100px !important;
+    }
 }
+
+.titulo-modal{
+    font-size: 1.5rem;
+    color: #EEABBE;
+    text-align: center;
+    margin: 1rem;
+}
+.ul-modal{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ul-modal li{
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: #B4ADAA;
+    border-bottom: 1px solid #B4ADAA;
+    padding: 0.5rem;
+}
+

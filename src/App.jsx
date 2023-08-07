@@ -10,7 +10,6 @@ import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Local from './components/Local/Local'
 import Promos from './components/Promos/Promos'
-import Depi from './components/Servicios/Depi/Depi'
 
 
 
@@ -29,7 +28,6 @@ function App() {
           <Route path='/promos' element={<Promos />} />
           <Route path='/local' element={<Local />} />
           <Route path='/contacto' element={<Contacto />} />
-          <Route path='/depilacion' element={<Depi />} />
           <Route path='*' element={<Error404 />} />
         </Routes>
         <Footer />
