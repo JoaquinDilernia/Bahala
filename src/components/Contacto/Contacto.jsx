@@ -1,15 +1,21 @@
 import React from 'react'
 import './Contacto.css'
+import Modal from '../Modal/Modal'
+import useModal from '../hooks/useModal'
+
+import { Button} from "@chakra-ui/react";
 
 import { motion } from 'framer-motion'
 
 
 const Contacto = () => {
+  const [isOpenModal6, openModal6, closeModal6] = useModal()
+
   return (
     <>
-     <motion.h1 initial={{ scale: 0.1 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }} className='titulo'>Contacto</motion.h1>
+    <motion.h1 initial={{ scale: 0.1 }} animate={{ scale: 1 }} transition={{ duration: 0.5 }} className='titulo'>Contacto</motion.h1>
     <motion.div initial={{ scale: 0.1 }} animate={{ scale: 1 }} transition={{ duration: 0.8 }} className="contacto">
-    <form target="_blank" action="https://formsubmit.co/jdilernia99@gmail.com" method="POST">
+    <form >
       <div className="form-group">
         <label htmlFor="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
@@ -23,7 +29,11 @@ const Contacto = () => {
         <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
       </div>
       <div className="form-group">
-        <input className='btn-enviar-form' type="submit" value="Enviar" />
+        <Button className='btn-enviar-form'  onClick={openModal6} > ENVIAR</Button>
+        <Modal isOpen={isOpenModal6}>
+          <h1 className='titulo-modal'>MENSAJE ENVIADO</h1>
+          <p className='parrafo-modal'>Gracias por contactarnos, te responderemos a la brevedad</p>
+        </Modal>
       </div>
 
       <div className='form-group'>

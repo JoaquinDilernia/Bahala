@@ -49,25 +49,29 @@ textarea:focus{
 }
 
 .btn-enviar-form{
-    width: 100%;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: #EEABBE;
-    color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    width: 100% !important;
+    padding: 0.5rem !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+    background-color: #EEABBE !important;
+    color: #fff     !important;
+    font-size: 1.2rem !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease-in-out    !important;
+    -webkit-transition: all 0.2s ease-in-out    !important;
+    -moz-transition: all 0.2s ease-in-out    !important;
+    -ms-transition: all 0.2s ease-in-out    !important;
+    -o-transition: all 0.2s ease-in-out    !important;
+    -webkit-border-radius: 0.5rem !important;
+    -moz-border-radius: 0.5rem !important;
+    -ms-border-radius: 0.5rem !important;
+    -o-border-radius: 0.5rem !important;
 }
 
 .btn-enviar-form:hover{
-    background-color: #fff;
-    color: #EEABBE;
-    border: 1px solid #EEABBE;
+    background-color: #fff !important;
+    color: #EEABBE !important;
+    border: 1px solid #EEABBE !important;
 }
 
 .titulo-wpp{
