@@ -11,6 +11,8 @@ footer {
     -moz-border-radius: 2rem 2rem 0rem 0rem;
     -ms-border-radius: 2rem 2rem 0rem 0rem;
     -o-border-radius: 2rem 2rem 0rem 0rem;
+    overflow-y: hidden;
+
 }
 
 .social-media a {
