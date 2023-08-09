@@ -26,7 +26,7 @@ const Contacto = () => {
       </div>
       <div className="form-group">
         <label htmlFor="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" ></textarea>
       </div>
       <div className="form-group">
         <Button className='btn-enviar-form'  onClick={openModal6} > ENVIAR</Button>

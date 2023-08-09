@@ -17,8 +17,8 @@
 .box {
     background-color: #fff;
     border-radius: 50%;
-    width: 16rem;
-    height: 16rem;
+    width: 17rem;
+    height: 17rem;
     display: flex;
     position: relative;
     margin: 5rem;
@@ -37,17 +37,16 @@
     -o-transition: all 0.3s;
 }
 .box img{
-    filter: blur(2px) grayscale(60%);
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    -webkit-filter: blur(2px) grayscale(60%);
+ 
 }
 .box img:hover{
-    filter: blur(0px);
+
     transition: all 0.8s;
-    -webkit-filter: blur(0px);
+
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -ms-transition: all 0.8s;
@@ -55,13 +54,6 @@
 }
 
 
-.box h3{
-    position: absolute;
-    font-weight: bold;
-    font-size: 2rem;
-    font: 600;
-    color:#829D3A;
-}
 
 .home-2 {
     height: auto;
@@ -76,8 +68,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin: 7rem;
+    width: 90%;
+    margin: 6rem 0 2rem 0;
     padding: 1rem;
     border-bottom: 1px solid #EEABBE;
 }
@@ -121,6 +113,11 @@
     color: #B4ADAA;
     margin-bottom: 1rem;
 }
+.conte-txt p{
+    font-size: 1rem;
+    color: #EEABBE;
+    margin-bottom: 1rem;
+}
 
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -148,7 +145,7 @@
     }
     .contenedor-1 {
         flex-direction: column;
-        margin: 3rem;
+        margin: 2rem;
     }
 
     .conte-txt {
@@ -172,13 +169,9 @@
     }
 
     .box {
-        width: 10rem;
-        height: 10rem;
-        margin: 1rem;
-    }
-    .box h3 {
-        font-size: 1.5rem;
-        font: 400;
+        width: 12rem;
+        height: 12rem;
+        margin: 2rem;
     }
     .conte-txt ul li {
         margin: 1.5rem;

@@ -1,42 +1,123 @@
 .local {
 
-    height: 100vh;
-    background-color: #f5f5f5;
+    height: auto;
+    background-color: #fff;
 }
 
 .local h1 {
+    font-size: 2.5rem;
+    color: #B4ADAA;
     text-align: center;
-    font-size: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #EEABBE;
+    margin: 2rem;
 }
 
-.mapa {
+.mySwiper-local {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 1rem;
+
+}
+
+.swiper-slide-local-1 {
+    background-image: url("./img/banner2.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide-local-2 {
+    background-image: url("./img/banner1.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 6rem 0 2rem 0;
+    padding: 3rem;
+    border-bottom: 1px solid #EEABBE;
+}
+
+.conte-txt-local {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.texto-horarios {
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #EEABBE;
+    border-bottom: 0.1px solid #EEABBE;
+    margin: 1rem;
+
+}
+
+.conte-img-local {
+    width: 45%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+}
+
+iframe {
     width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    height: 100%;
+    border-radius: 2rem;
+
 }
 
-.mapa a {
-    padding: 0.5rem 1.8rem;
-    background: #fff;
-    border-radius: 4rem;
-    font-size: 1.6rem;
+.btn{
+    margin: 2rem 0 0 2rem;
+
+    padding: 0.8rem;
+    border-radius: 2rem;
+    background-color: #EEABBE;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
     color: #EEABBE;
-    transition: .5s ease;
-    -webkit-transition: .5s ease;
-    -moz-transition: .5s ease;
-    -ms-transition: .5s ease;
-    -o-transition: .5s ease;
+    border: 1px solid #EEABBE;
 }
 
-.mapa a:hover {
-    box-shadow: none;
-    transform: scale(1.1);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+@media screen and (max-width: 768px) {
+
+    .contenedor-info {
+        flex-direction: column;
+    }
+
+    .conte-txt-local {
+        width: 100%;
+    }
+
+    .conte-img-local {
+        width: 100%;
+        height: 300px;
+    }
+
+    .texto-horarios {
+font-size: 1.2rem;    }
+
+    .btn{
+        margin: 2rem 0 0 0;
+    }
 }
