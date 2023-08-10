@@ -10,6 +10,7 @@ import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import Local from './components/Local/Local'
 import Promos from './components/Promos/Promos'
+import Wpp from './components/Wpp/Wpp'
 
 
 
@@ -22,6 +23,7 @@ function App() {
 
       <ChakraProvider>
         <NavBar />
+        <Wpp />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/servicios' element={<Servicios />} />

@@ -65,11 +65,6 @@ const Servicios = () => {
                   <li>Uñas acrílicas</li>
                   <li>Uñas de gel</li>
                   <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -95,13 +90,6 @@ const Servicios = () => {
                   <li>Uñas esmaltadas</li>
                   <li>Uñas semipermanentes</li>
                   <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -127,12 +115,6 @@ const Servicios = () => {
                   <li>Uñas esmaltadas</li>
                   <li>Uñas semipermanentes</li>
                   <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
                   <li>Uñas de gel</li>
                 </ul>
               </Modal>
@@ -161,11 +143,6 @@ const Servicios = () => {
                   <li>Uñas acrílicas</li>
                   <li>Uñas de gel</li>
                   <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -191,12 +168,6 @@ const Servicios = () => {
                   <li>Uñas esmaltadas</li>
                   <li>Uñas semipermanentes</li>
                   <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
                   <li>Uñas de gel</li>
                 </ul>
               </Modal>
@@ -225,11 +196,6 @@ const Servicios = () => {
                   <li>Uñas acrílicas</li>
                   <li>Uñas de gel</li>
                   <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
-                  <li>Uñas de acrílico</li>
-                  <li>Uñas de gel</li>
                 </ul>
               </Modal>
             </CardFooter>

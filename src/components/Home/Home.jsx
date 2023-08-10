@@ -43,8 +43,8 @@ const Home = () => {
             <img src={foto1} alt="foto1" />
           </motion.div>
         </div>
-        <div className='contenedor-1'>
 
+        <div className='contenedor-1'>
           <motion.div initial={{ x: -300 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-img'>
             <img src={promo2} alt="foto1" />
           </motion.div>
@@ -55,8 +55,6 @@ const Home = () => {
             </p>
           </motion.div>
         </div>
-
-
       </section>
 
     </>

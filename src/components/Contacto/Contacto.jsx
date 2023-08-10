@@ -38,7 +38,7 @@ const Contacto = () => {
 
       <div className='form-group'>
         <h3 className='titulo-wpp'>O CONTACTANOS POR WHATSAPP</h3>
-        <a className='btn-wpp' href="https://api.whatsapp.com/send?phone=1161712268&text=Hola%20quiero%20hacer%20una%20consulta" target="_blank" rel="noreferrer">WHATSAPP</a>
+        <a className='btn-wpp-contacto' href="https://api.whatsapp.com/send?phone=1161712268&text=Hola%20quiero%20hacer%20una%20consulta" target="_blank" rel="noreferrer">WHATSAPP</a>
       </div>
 
 
