@@ -6,14 +6,10 @@ verde : 829D3A
 
 
 
-.active {
-    border-bottom: 2px solid #EEABBE;
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.navbar {
+
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 2rem 2rem;
@@ -29,130 +25,152 @@ nav {
     -o-border-radius: 0 0 2rem 2rem;
 }
 
-.logo{
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.container {
+    z-index: 1;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.logo {
     width: 70px;
     height: 70px;
     margin-left: 2rem;
 }
-.logo:hover{
+
+.logo:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-.logo img{
+
+.logo img {
     width: 100%;
     height: 100%;
 }
 
-nav ul {
+.navbar-icon {
+    margin-right: 0.5rem;
+}
+
+.nav-menu {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-right: 2.5rem;
-}
-
-nav ul.open {
-    display: flex;
-}
-
-nav ul li {
+    justify-content: center;
     list-style: none;
+    text-align: center;
 
 }
 
-nav ul li a {
+.nav-item {
+    height: 80px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.nav-item:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.nav-links {
     display: block;
     color: #EEABBE;
     font-size: 1.2rem;
-    font-weight: 300;
     text-decoration: none;
     transition: all 0.3s ease;
     margin: 0 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
-.titulo:hover {
-    transform: scale(1.01);
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
+.activated {
+    border-bottom: 2px solid #EEABBE;
 }
 
-nav ul li a:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+.fa-bars {
+    color: #EEABBE;
 }
 
-nav .menu {
-    position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
-    font-size: 2rem;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: space-between;
+.menu-icon {
     display: none;
-    width: 2.25rem;
-    height: 2rem;
+
+
 }
 
-nav .menu span {
-    width: 100%;
-    height: 0.25rem;
-    background-color: #EEABBE;
-    border-radius: 0.25rem;
-}
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
 
-@media (max-width: 950px) {
-    nav .menu {
+    .activated {
+        border-bottom: 0;
+    }
 
+    .nav-menu {
         display: flex;
-        justify-content: space-between !important;
-        margin-top: 0.5rem;
-    }
-
-    nav {
         flex-direction: column;
-        align-items: start;
-        box-shadow: 0px #fff;
-        border-radius: 0px;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        -ms-border-radius: 0px;
-        -o-border-radius: 0px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        display: none;
         width: 100%;
-        margin-bottom: 0.25rem;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
         border-radius: 0 0 2rem 2rem;
-        -webkit-border-radius: 0 0 2rem 2rem;
-        -moz-border-radius: 0 0 2rem 2rem;
-        -ms-border-radius: 0 0 2rem 2rem;
-        -o-border-radius: 0 0 2rem 2rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
     }
 
-    nav ul li {
-        width: 100%;
+    .nav-menu.active {
+        background: #fff;
+        left: 0;
+        opacity: 1;
+        transition: all 0.6s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
         text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
     }
 
-    nav ul li a {
-        margin: 0.2rem 0.5rem;
-
+    .nav-links:hover {
+        transform: scale(1.01);
+        transition: all 0.3s ease;
+        -webkit-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        -o-transform: scale(1.01);
     }
 
-    .active {
-        border-bottom: 0px solid #EEABBE;
+    .nav-item:hover {
+        border: none;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
     }
 }
