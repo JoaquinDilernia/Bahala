@@ -57,14 +57,13 @@ const Servicios = () => {
               <Modal isOpen={isOpenModal} closeModal={closeModal}>
                 <h1 className='titulo-modal'>MANOS Y PIES</h1>
                 <ul className="ul-modal" >
-                  <li className="li-modal">Manicura</li>
-                  <li>Pedicura</li>
+                  <li>Belleza de manos</li>
+                  <li>Esmaltado tradicional de manos y pies</li>
+                  <li>Esmaltado Semipermanente de manos y pies</li>
+                  <li>Kapping Gel</li>
+                  <li>Softgel</li>
                   <li>Uñas esculpidas</li>
-                  <li>Uñas esmaltadas</li>
-                  <li>Uñas semipermanentes</li>
-                  <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
+                  <li>Pedicuria y belleza de pies</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -84,12 +83,17 @@ const Servicios = () => {
               <Modal isOpen={isOpenModal1} closeModal={closeModal1}>
                 <h1 className='titulo-modal'>FACIALES Y CORPORALES</h1>
                 <ul className="ul-modal" >
-                  <li className="li-modal">Manicura</li>
-                  <li>Pedicura</li>
-                  <li>Uñas esculpidas</li>
-                  <li>Uñas esmaltadas</li>
-                  <li>Uñas semipermanentes</li>
-                  <li>Uñas acrílicas</li>
+                  <li>Limpieza facial básica</li>
+                  <li>Limpieza facial profunda </li>
+                  <li>Dermaplaning </li>
+                  <li>Peeling facial</li>
+                  <li>Peeling con punta de diamante</li>
+                  <li>Spa facial </li>
+                  <li>Exfoliación corporal </li>
+                  <li>Bb glow</li>
+                  <li>Masajes reductores </li>
+                  <li>Tratamientos corporales según la necesidad</li>
+
                 </ul>
               </Modal>
             </CardFooter>
@@ -109,13 +113,15 @@ const Servicios = () => {
               <Modal isOpen={isOpenModal2} closeModal={closeModal2}>
                 <h1 className='titulo-modal'>MASAJES</h1>
                 <ul className="ul-modal" >
-                  <li className="li-modal">Manicura</li>
-                  <li>Pedicura</li>
-                  <li>Uñas esculpidas</li>
-                  <li>Uñas esmaltadas</li>
-                  <li>Uñas semipermanentes</li>
-                  <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
+                  <li>Bambuterapia </li>
+                  <li>Drenaje linfático manual</li>
+                  <li>Masajes con pindas aromáticas</li>
+                  <li>Masajes reductores </li>
+                  <li>Masajes sedativos </li>
+                  <li>Masajes descontracturantes </li>
+                  <li>Masajes deportivos</li>
+                  <li>Masajes con piedras calientes</li>
+                  <li>Pulido corporal</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -135,14 +141,14 @@ const Servicios = () => {
               <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
                 <h1 className='titulo-modal'>PELUQUERIA</h1>
                 <ul className="ul-modal" >
-                  <li className="li-modal">Manicura</li>
-                  <li>Pedicura</li>
-                  <li>Uñas esculpidas</li>
-                  <li>Uñas esmaltadas</li>
-                  <li>Uñas semipermanentes</li>
-                  <li>Uñas acrílicas</li>
+                  <li>Corte (mujeres, hombres y niños) </li>
+                  <li>Lavado + brushing </li>
+                  <li>Lavado, peinados para fiestas y eventos</li>
+                  <li>Coloración y balayage</li>
+                  <li>Tratamientos capilares </li>
                   <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
+                  <li>Alisados y keratina</li>
+                  <li>Trenzas africanas</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -162,13 +168,8 @@ const Servicios = () => {
               <Modal isOpen={isOpenModal4} closeModal={closeModal4}>
                 <h1 className='titulo-modal'>DEPILACION</h1>
                 <ul className="ul-modal" >
-                  <li >Manicura</li>
-                  <li>Pedicura</li>
-                  <li>Uñas esculpidas</li>
-                  <li>Uñas esmaltadas</li>
-                  <li>Uñas semipermanentes</li>
-                  <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
+                  <li >Depilación definitiva soprano ice </li>
+                  <li>Depilación tradicional cuerpo entero</li>
                 </ul>
               </Modal>
             </CardFooter>
@@ -188,14 +189,11 @@ const Servicios = () => {
               <Modal isOpen={isOpenModal5} closeModal={closeModal5}>
                 <h1 className='titulo-modal'>PESTAÑAS Y CEJAS</h1>
                 <ul className="ul-modal" >
-                  <li>Manicura</li>
-                  <li>Pedicura</li>
-                  <li>Uñas esculpidas</li>
-                  <li>Uñas esmaltadas</li>
-                  <li>Uñas semipermanentes</li>
-                  <li>Uñas acrílicas</li>
-                  <li>Uñas de gel</li>
-                  <li>Uñas de porcelana</li>
+                  <li>Limpieza de cejas</li>
+                  <li>Perfilado de cejas</li>
+                  <li>Laminado de cejas </li>
+                  <li>Lifting de pestañas </li>
+                  <li>Extensiones de pestañas</li>
                 </ul>
               </Modal>
             </CardFooter>

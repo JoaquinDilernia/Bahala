@@ -26,7 +26,7 @@ const Home = () => {
 
       <section className='home-2'>
         <div className='contenedor-1'>
-          <motion.div initial={{ x: -100 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-txt'>
+          <motion.div initial={{ x: -50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-txt'>
             <h1>DERMAPEN + LIMPIEZA FACIL PROFUNDA SEGUN TU PIEL</h1>
             <ul>
               <li>Elimina las arrugas, marcas, estrías o cicatrices de diversas zonas del cuerpo.</li>
@@ -39,16 +39,16 @@ const Home = () => {
               <li>Ayuda a disminuir la apariencia de cansancio.</li>
             </ul>
           </motion.div>
-          <motion.div initial={{ x: 100 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-img'>
+          <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-img'>
             <img src={foto1} alt="foto1" />
           </motion.div>
         </div>
 
         <div className='contenedor-1'>
-          <motion.div initial={{ x: -100 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-img'>
+          <motion.div initial={{ x: -50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-img'>
             <img src={promo2} alt="foto1" />
           </motion.div>
-          <motion.div initial={{ x: 100 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-txt'>
+          <motion.div initial={{ x: 50 }} whileInView={{ x: 0 }} transition={{ duration: 1 }} className='conte-txt'>
             <h1>¡DESCUBRE NUESTRO NUEVO SERVICIO DE PELUQUERIA  </h1>
             <p>
               En Bahala, siempre nos esforzamos por brindarte lo mejor en cuidado y belleza, y estamos encantados de presentarte nuestra última incorporación: ¡nuestro completo servicio de Peluquería! Sabemos lo importante que es tener un cabello hermoso y bien cuidado, y nuestro equipo de expertos peluqueros está listo para ofrecerte una experiencia única y transformadora.

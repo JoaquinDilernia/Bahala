@@ -99,10 +99,11 @@
     }
     .card{
         height: auto !important;
+        margin: 0.2rem;
     }
     .img-card{
-        height: 15rem !important;
-    }
+        height: 14rem !important;
+}
     .CardBody{
         height: auto !important;
     }
@@ -111,12 +112,12 @@
         -webkit-filter: grayscale(0%);
 }	
     .card-titulo{
-        font-size: 0.8rem !important;; 
+        font-size: 0.6rem !important;; 
         color: #EEABBE;
         text-align: center;
     }	
     .btn-ver{
-        font-size: 0.8rem !important;
+        font-size: 0.6rem !important;
         height: auto !important;
         width: 100px !important;
     }
